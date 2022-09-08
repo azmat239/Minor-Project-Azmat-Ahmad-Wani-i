@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+         h1{
+            display: inline-block;
+            padding: 15px;
+            margin: 0 10px 10px 10px;
+        }
+        li{
+            display: inline;
+            margin: 10px;
+            border: 2px solid black;
+            padding: 5px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        ul{
+            display: inline-block;
+        }
+        footer{
+            text-align: center;
+            font-size: larger;
+            border: 2px solid black;
+            margin: 5px;
+        }
+        body{
+            background-color: rgba(128, 128, 128, 0.264);
+        }
+        .active{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fill The Contact details </h1>
+    <ul>
+        <a href="Home.html"><li>Home</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="academics.html"><li>Academics</li></a>
+        <a href="department.html"><li>Department</li></a>
+        <a href="Contact.html" ><li class="active">Contact</li></a>
+    </ul>
+    <form>
+        Name: <br>
+        <input type="text" name="name" required><br><br>
+        Email: <br>
+        <input type="email" name="email" required><br><br>
+        Phone Number : <br>
+        <input type="tel" name="telephone"><br><br>
+        Enter Your query: <br>
+        <textarea name="query" cols="30" rows="10"></textarea><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset"><br><br>
+    </form>
+    <footer>All Copyrights Belongs to Azmat &copy;2022</footer>
+</body>
+</html>
