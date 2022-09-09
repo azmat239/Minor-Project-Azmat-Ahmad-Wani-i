@@ -34,6 +34,7 @@
             font-size: larger;
             border: 2px solid black;
             margin: 5px;
+            background-color: darkgray;
         }
         body{
             background-color: rgba(128, 128, 128, 0.264);
@@ -43,11 +44,30 @@
         }
         fieldset{
             padding: 2px;
-            margin: 5px;
+            margin: 20px;
+            background-color: darkgray;
         }
         input{
             padding: 4px;
             margin: 10px;
+        }
+        .submit{
+            background: darkblue;
+            color: white;
+            padding: 5px;
+            font-size: larger;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-radius: 20px;
+            border-color: red;
+        }
+        .Reset{
+            background: darkblue;
+            color: white;
+            padding: 5px;
+            font-size: larger;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-radius: 20px;
+            border-color: red;
         }
     </style>
 </head>
@@ -61,7 +81,7 @@
         <a href="department.html"><li class="ab">Department</li></a>
         <a href="Contact.html"><li class="ab">Contact</li></a>
     </ul>
-    <img src="2.jpg" alt="not displayed" width="100%" height="400px">
+    <img src="images.jpg" alt="not displayed" width="100%" height="400px">
     <form>
         <fieldset>
         <legend>Personal Details</legend>
@@ -109,9 +129,24 @@
             <legend>Applying for</legend>
             Student Status: <br>
             <input type="checkbox" name="fulltime" >Full time
-            <input type="checkbox" name="fulltime" >Full time
-            <input type="checkbox" name="fulltime" >Full time
-            <input type="checkbox" name="fulltime" >Full time
+            <input type="checkbox" name="fulltime" >part-time
+            <input type="checkbox" name="fulltime" >Evening
+            <input type="checkbox" name="fulltime" >Distance learning <br>
+            Applying for: <br>
+            <input type="radio" name="Applying for" >B.tech Computer Science And Engineering
+            <input type="radio" name="Applying for" >B.tech Computer Engineering
+            <input type="radio" name="Applying for" >B.tech Data Scicene Engineering
+            <input type="radio" name="Applying for" >B.tech Aerospace Engineering <br>
+            <input type="radio" name="Applying for" >B.tech Biotech Engineering
+            <input type="radio" name="Applying for" >B.tech Chemical Engineering
+            <input type="radio" name="Applying for"  >IT Engineering
+            <input type="radio" name="Applying for" >B.tech Civil Engineering
+            <input type="radio" name="Applying for" >B.tech ECE <br>
+            <input type="radio" name="Applying for" >B.A
+            <input type="radio" name="Applying for" >BCA
+            <input type="radio" name="Applying for" >BBA
+            <input type="radio" name="Applying for" >B.com
+            <input type="radio" name="Applying for" >MBA
         </fieldset>
         <input type="submit" value="Submit" class="submit">
         <input type="reset" value="Reset" class="Reset">
